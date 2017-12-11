@@ -4,8 +4,6 @@ import junit.framework.Assert;
 
 import org.junit.Test;
 
-import pl.com.simbit.utility.problems.numbers.TilesUtil;
-
 public class TilesUtilTest {
 
 	@Test

@@ -4,8 +4,6 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import pl.com.simbit.utility.problems.string.StringPower;
-
 public class StringPowerTest {
 
     @Test

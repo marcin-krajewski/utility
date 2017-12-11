@@ -4,9 +4,6 @@ import junit.framework.Assert;
 
 import org.junit.Test;
 
-import pl.com.simbit.utility.problems.math.Point;
-import pl.com.simbit.utility.problems.math.Triangle;
-
 public class TriangleTest {
 
 	@Test

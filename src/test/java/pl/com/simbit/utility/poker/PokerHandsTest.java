@@ -6,10 +6,6 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import pl.com.simbit.utility.problems.poker.Poker;
-import pl.com.simbit.utility.problems.poker.PokerHand;
-import pl.com.simbit.utility.problems.poker.PokerHandType;
-
 public class PokerHandsTest {
 
 	private Logger logger = LoggerFactory.getLogger(PokerHandsTest.class);

@@ -2,7 +2,6 @@ package pl.com.simbit.utility.math;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
-import pl.com.simbit.utility.problems.math.GreatestCommonDivisor;
 
 public class GreatestCommonDivisorTest {
 

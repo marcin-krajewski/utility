@@ -5,8 +5,6 @@ import static org.junit.Assert.*;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import pl.com.simbit.utility.problems.math.BinaryNumber;
-
 public class BinaryNumberTest {
 	
 	@Test

@@ -2,7 +2,6 @@ package pl.com.simbit.utility.numbers;
 
 import static org.junit.Assert.*;
 import org.junit.Test;
-import pl.com.simbit.utility.problems.numbers.NumberDigits;
 
 public class NumberDigitsTest {
 

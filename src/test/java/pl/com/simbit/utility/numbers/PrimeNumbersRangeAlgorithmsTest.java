@@ -6,7 +6,7 @@ import junit.framework.Assert;
 
 import org.junit.Test;
 
-import pl.com.simbit.utility.problems.numbers.primes.PrimeNumbers;
+import pl.com.simbit.utility.numbers.primes.PrimeNumbers;
 
 public class PrimeNumbersRangeAlgorithmsTest {
 

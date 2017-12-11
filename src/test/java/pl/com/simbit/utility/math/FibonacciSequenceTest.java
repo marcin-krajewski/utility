@@ -5,8 +5,6 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Ignore;
 import org.junit.Test;
 
-import pl.com.simbit.utility.problems.math.FibonacciSequence;
-
 public class FibonacciSequenceTest {
 	
 	@Test

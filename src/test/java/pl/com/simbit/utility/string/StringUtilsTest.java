@@ -1,9 +1,8 @@
 package pl.com.simbit.utility.string;
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
-import pl.com.simbit.utility.problems.string.StringAsNum;
-import pl.com.simbit.utility.problems.string.StringUtils;
 
 public class StringUtilsTest {
 
@@ -17,11 +16,19 @@ public class StringUtilsTest {
 		assertEquals("2760", product2);
 		assertEquals(product1, product2);
 	}
-	
+
 	@Test
 	public void checkIfGetLastStringCharsWorksCorrectTest() {
 		assertEquals("", StringUtils.getInstance().getLastStringCharacters("", 3));
 		assertEquals("cde", StringUtils.getInstance().getLastStringCharacters("cde", 3));
 		assertEquals("cde", StringUtils.getInstance().getLastStringCharacters("abcde", 3));
+	}
+
+	@Test
+	public void stringAt() {
+		assertEquals("1", StringUtils.getInstance().stringAt("123456789", 0));
+		assertEquals("4", StringUtils.getInstance().stringAt("123456789", 3));
+		assertEquals("7", StringUtils.getInstance().stringAt("123456789", 6));
+		assertEquals("9", StringUtils.getInstance().stringAt("123456789", 8));
 	}
 }
