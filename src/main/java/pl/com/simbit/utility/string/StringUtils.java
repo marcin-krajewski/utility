@@ -42,4 +42,14 @@ public class StringUtils {
 		Arrays.sort(chars);
 		return new String(chars);
 	}
+
+	public int count(String input, char c) {
+		int count = 0;
+		for (int i = 0; i < input.length(); i++) {
+			if (input.charAt(i) == c) {
+				count++;
+			}
+		}
+		return count;
+	}
 }

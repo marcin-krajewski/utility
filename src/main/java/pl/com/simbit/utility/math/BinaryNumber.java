@@ -1,15 +1,14 @@
 package pl.com.simbit.utility.math;
 
+import java.math.BigInteger;
+
 public class BinaryNumber {
 
-	public static String getBinaryStringForNumber(int number) {
+	public static String decimalNumberToBin(int number) {
+		return Integer.toBinaryString(number);
+	}
 
-		StringBuilder binaryNumber = new StringBuilder();
-		int tempNumber = number;
-		while (tempNumber >= 1) {
-			binaryNumber.append(tempNumber & 1);
-			tempNumber >>= 1;
-		}
-		return binaryNumber.reverse().toString();
+	public static String hexToBinWithLeadingZeros(String s, int length) {
+		return String.format("%" + length + "s", new BigInteger(s, 16).toString(2));
 	}
 }

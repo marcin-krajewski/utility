@@ -6,17 +6,16 @@ import org.junit.Ignore;
 import org.junit.Test;
 
 public class BinaryNumberTest {
-	
+
 	@Test
-	@Ignore
 	public void checkIfZeroIsCorrect() {
-		assertEquals("0", BinaryNumber.getBinaryStringForNumber(0));
+		assertEquals("0", BinaryNumber.decimalNumberToBin(0));
 	}
 
-    @Test
-    public void checkIfDecimalNumberIsCorrectInBinary() {
-        assertEquals("1", BinaryNumber.getBinaryStringForNumber(1));
-        assertEquals("10000", BinaryNumber.getBinaryStringForNumber(16));
-        assertEquals("111111", BinaryNumber.getBinaryStringForNumber(63));
-    }
+	@Test
+	public void checkIfDecimalNumberIsCorrectInBinary() {
+		assertEquals("1", BinaryNumber.decimalNumberToBin(1));
+		assertEquals("10000", BinaryNumber.decimalNumberToBin(16));
+		assertEquals("111111", BinaryNumber.decimalNumberToBin(63));
+	}
 }
